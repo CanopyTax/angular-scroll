@@ -17,6 +17,10 @@
   "bugs": {
     "url": "https://github.com/oblador/angular-scroll/issues"
   },
+  "publishConfig":
+    {
+    "registry": "http://npm.canopytax.com"
+    }
   "scripts": {
     "start": "http-server -p 8888",
     "test": "./node_modules/karma/bin/karma start test/karma.conf.js",
